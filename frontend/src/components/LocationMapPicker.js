@@ -136,25 +136,33 @@ const LocationMapPicker = ({ onLocationSelect, initialPosition, addressToGeocode
 
   // Geocode address when addressToGeocode prop changes
   useEffect(() => {
-    // Only geocode if:
-    // 1. addressToGeocode has a value
-    // 2. Google Maps is loaded
-    // 3. We're not currently geocoding
-    // 4. The address is different from what we last geocoded
-    if (addressToGeocode && 
-        addressToGeocode.trim() !== '' &&
-        window.google && 
-        !isGeocodingAddress && 
-        !loading &&
-        addressToGeocode !== lastGeocodedAddress) {
-      
-      const timeoutId = setTimeout(() => {
-        forwardGeocode(addressToGeocode);
-      }, 1500); // Debounce 1.5 seconds
-      
-      return () => clearTimeout(timeoutId);
+    if (!addressToGeocode || addressToGeocode.trim() === '' || !window.google) {
+      return;
     }
-  }, [addressToGeocode, isGeocodingAddress, loading, lastGeocodedAddress, forwardGeocode]);
+
+    // Normalize both addresses for comparison
+    const normalizedInput = normalizeAddress(addressToGeocode);
+    const normalizedLastFormatted = normalizeAddress(lastFormattedAddressRef.current);
+    const normalizedLastGeocoded = normalizeAddress(lastGeocodedInputRef.current);
+
+    // Skip geocoding if:
+    // 1. Currently geocoding or loading
+    // 2. The input matches the last formatted address (user hasn't changed it)
+    // 3. The input matches what we just geocoded
+    if (isGeocodingAddress || 
+        loading || 
+        normalizedInput === normalizedLastFormatted ||
+        normalizedInput === normalizedLastGeocoded) {
+      return;
+    }
+
+    // Debounce geocoding to avoid excessive API calls
+    const timeoutId = setTimeout(() => {
+      forwardGeocode(addressToGeocode);
+    }, 1000); // Reduced to 1 second for better UX
+    
+    return () => clearTimeout(timeoutId);
+  }, [addressToGeocode, isGeocodingAddress, loading, forwardGeocode]);
 
   return (
     <div className="w-full">
