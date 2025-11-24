@@ -1,0 +1,342 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "programs": "プログラム",
+    "forSchools": "学校向け",
+    "signIn": "ログイン",
+    "logout": "ログアウト",
+    "dashboard": "ダッシュボード"
+  },
+  "hero": {
+    "title": "武道の卓越への道",
+    "subtitle": "文化的な豊かさへの旅に出発しましょう。熟練した指導者による本格的な日本の武道と文化研修を体験してください。",
+    "explorePrograms": "プログラムを探す",
+    "learnMore": "詳しく見る",
+    "contactUs": "お問い合わせ"
+  },
+  "martialArts": {
+    "asayama": {
+      "title": "浅山一伝流",
+      "description": "1566年頃に創設された総合的な日本武術の古流。実践的な武装・素手戦闘を重視しています。"
+    },
+    "kyudo": {
+      "title": "全日本弓道連盟（弓道）",
+      "description": "弓の道 - 個人の修養と儀礼的実践に焦点を当てた伝統的な日本の弓術。"
+    },
+    "karate": {
+      "title": "松濤館空手",
+      "description": "船越義珍師範によって開発された、世界で最も広く実践されている空手道のスタイルの一つ。"
+    },
+    "aikido": {
+      "title": "合気会合気道",
+      "description": "植芝盛平から受け継がれた合気道の本家組織。調和と自己防衛に焦点を当てています。"
+    },
+    "iaido": {
+      "title": "無外流居合兵道",
+      "description": "実践的な戦闘応用と禅仏教との深い結びつきを強く重視する居合道の高く評価されている流派。"
+    },
+    "aikijujutsu": {
+      "title": "大東流合気柔術",
+      "description": "現代の合気道や他の武道に大きな影響を与えたと認識されている古典的な日本武術。"
+    }
+  },
+  "culturalArts": {
+    "calligraphy": "書道",
+    "ikebana": "生け花",
+    "sumie": "墨絵",
+    "swordSmithing": "刀鍛冶"
+  },
+  "sections": {
+    "discoverTheArt": "芸術を発見する",
+    "discoverIntro": "Train In Japanへようこそ。本格的な日本文化への入り口です。単なる観光地だけでなく、日本と深く結びついた生活へのコミットメントを意味するコースを提供しています。",
+    "authenticTraining": "本格的な訓練",
+    "authenticTrainingDesc": "伝統的な道場で師範と共に訓練",
+    "culturalImmersion": "文化的な没入",
+    "culturalImmersionDesc": "日本の伝統と生活様式を体験",
+    "allLevelsWelcome": "全レベル歓迎",
+    "allLevelsWelcomeDesc": "個人からファミリー、クラス全体まで",
+    "availableForBookings": "予約可能",
+    "availableForBookingsDesc": "伝統的な古流から現代の現代武道まで - 本格的な日本の訓練を発見",
+    "culturalArtsTitle": "文化芸術",
+    "martialArts": "武道",
+    "martialArtsSubtitle": "古代の武術の伝統を発見する",
+    "culturalArts": "文化芸術",
+    "culturalArtsSubtitle": "伝統的な日本文化を体験する",
+    "allLevels": "全レベル",
+    "beginners": "初心者歓迎",
+    "experienced": "経験者向け",
+    "authentic": "本格的な訓練",
+    "certifiedInstructors": "認定インストラクター"
+  },
+  "features": {
+    "allLevels": {
+      "title": "全レベル",
+      "description": "初心者から上級者まで対応したプログラム"
+    },
+    "beginners": {
+      "title": "初心者歓迎",
+      "description": "経験不要 - 今日から武道の旅を始めましょう"
+    },
+    "experienced": {
+      "title": "経験者向け",
+      "description": "本格的な環境で師範による上級訓練"
+    },
+    "authentic": {
+      "title": "本格的な訓練",
+      "description": "伝統的な道場で日本の師範から直接学ぶ"
+    },
+    "certifiedInstructors": {
+      "title": "認定インストラクター",
+      "description": "すべての指導者は認定された経験豊富な専門家です"
+    },
+    "culturalImmersion": {
+      "title": "文化的な没入",
+      "description": "武道訓練中に日本文化を体験"
+    }
+  },
+  "cta": {
+    "title": "あなたの旅を始める準備はできましたか？",
+    "subtitle": "利用可能なプログラムを閲覧し、本格的な日本の訓練体験を今日予約しましょう。",
+    "button": "全プログラムを閲覧",
+    "contactUs": "お問い合わせ"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "message": "メッセージ",
+    "submit": "送信",
+    "emailLabel": "メール: administration@traininjapan.com"
+  },
+  "footer": {
+    "title": "Train In Japan",
+    "subtitle": "本格的な武道と文化的な没入を解き放つ",
+    "copyright": "© 2025 Train In Japan. 全著作権所有。"
+  },
+  "dashboard": {
+    "welcome": "ようこそ",
+    "trainingSchool": "訓練学校",
+    "defaultTagline": "訓練学校",
+    "stats": {
+      "title": "ダッシュボード統計",
+      "locations": "場所",
+      "instructors": "指導者",
+      "programs": "プログラム",
+      "bookings": "予約",
+      "earnings": "あなたの収益（コース価格）",
+      "platformFee": "徴収された予約手数料（9％）"
+    },
+    "tabs": {
+      "branding": "ブランディング",
+      "locations": "場所",
+      "instructors": "指導者",
+      "programs": "プログラム",
+      "bookings": "予約"
+    }
+  },
+  "branding": {
+    "title": "学校ブランディング",
+    "subtitle": "ロゴ、バナー、証明書、ビデオで学校の視覚的アイデンティティをカスタマイズします。",
+    "tagline": {
+      "title": "学校のタグライン",
+      "description": "学校名の下に表示される短いサブタイトル",
+      "placeholder": "訓練学校"
+    },
+    "bio": {
+      "title": "学校の紹介 / について",
+      "description": "プロフィールやコースリストに表示される学校に関する詳細情報。",
+      "placeholder": "学校の歴史、哲学、訓練方法、指導者、プログラムの特別な点について生徒に伝えてください..."
+    },
+    "logo": {
+      "title": "学校ロゴ",
+      "description": "学校のロゴをアップロードします。推奨サイズ: 400x400px"
+    },
+    "banner": {
+      "title": "学校バナー",
+      "description": "学校プロフィール用のバナー画像をアップロードします。推奨サイズ: 1920x400px"
+    },
+    "certificates": {
+      "title": "学校の証明書",
+      "description": "学校の証明書、認定証、または賞状の画像をアップロードします。"
+    },
+    "video": {
+      "title": "プロモーションビデオ",
+      "description": "ビデオファイルをアップロードするか、YouTube URLを貼り付けます",
+      "urlLabel": "またはYouTube URLを貼り付け",
+      "preview": "ビデオプレビュー",
+      "remove": "ビデオを削除"
+    },
+    "saveBranding": "ブランディングを保存"
+  },
+  "location": {
+    "title": "訓練場所",
+    "subtitle": "道場と訓練施設を管理",
+    "addLocation": "場所を追加",
+    "addLocationDesc": "日本の新しい道場や訓練スペースを追加",
+    "japaneseOnly": "現在、日本国内の場所のみ受け付けています",
+    "name": "場所名",
+    "namePlaceholder": "メイン道場 - 渋谷",
+    "mapInstruction": "地図上をクリックして場所を選択してください",
+    "mapHelp": "マーカーが選択した場所を示します。住所は自動的に検出されます。",
+    "selectedLocation": "選択された場所",
+    "detectedAddress": "検出された住所",
+    "coordinates": "座標",
+    "prefecture": "都道府県",
+    "capacity": "定員",
+    "capacityPlaceholder": "最大生徒数",
+    "facilities": "施設",
+    "facilitiesPlaceholder": "畳、更衣室、シャワー",
+    "description": "説明",
+    "facilityImages": "施設画像",
+    "facilityImagesHelp": "訓練スペース、更衣室、設備などの写真をアップロードしてください。",
+    "createLocation": "場所を作成",
+    "viewOnMaps": "Googleマップで見る",
+    "facilityPhotos": "施設写真",
+    "students": "生徒"
+  },
+  "instructor": {
+    "title": "指導者",
+    "subtitle": "教師陣を管理",
+    "addInstructor": "指導者を追加",
+    "createNew": "新しい指導者を作成",
+    "name": "氏名",
+    "namePlaceholder": "先生の名前",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "rank": "段位 / 称号",
+    "rankPlaceholder": "五段、師範など",
+    "yearsExperience": "指導経験年数",
+    "bio": "経歴",
+    "bioPlaceholder": "経歴、専門分野、指導哲学...",
+    "specialties": "専門分野",
+    "specialtiesPlaceholder": "武器訓練、子供クラスなど",
+    "saveInstructor": "指導者を保存",
+    "years": "年"
+  },
+  "program": {
+    "title": "プログラム",
+    "subtitle": "訓練プログラムとコースを管理",
+    "addProgram": "プログラムを追加",
+    "createNew": "新しいプログラムを作成",
+    "editProgram": "プログラムを編集",
+    "firstCourseTitle": "最初のコース承認",
+    "firstCourseWarning": "最初のコースは公開前に管理者の承認が必要です。",
+    "category": "コースカテゴリー",
+    "courseCategory": "コースカテゴリー",
+    "martialArts": "武道",
+    "culturalArts": "文化芸術",
+    "style": "武道スタイル",
+    "martialArtsStyle": "武道スタイル",
+    "culturalType": "文化芸術の種類",
+    "culturalArtType": "文化芸術の種類",
+    "title": "プログラムタイトル",
+    "description": "説明",
+    "location": "場所",
+    "selectLocation": "場所を選択",
+    "instructor": "指導者",
+    "selectInstructor": "指導者を選択",
+    "experienceLevel": "経験レベル",
+    "beginner": "初心者",
+    "intermediate": "中級者",
+    "advanced": "上級者",
+    "level": "レベル",
+    "classType": "クラスタイプ",
+    "groupAdults": "グループ（大人）",
+    "private": "プライベート",
+    "family": "ファミリー（大人と子供）",
+    "familyAdultsChildren": "ファミリー（大人と子供）",
+    "price": "価格",
+    "capacity": "定員",
+    "locationMax": "場所の最大",
+    "schedule": "プログラムスケジュール（集中フルタイム訓練）",
+    "scheduleTitle": "プログラムスケジュール（集中フルタイム訓練）",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "dailyStartTime": "毎日の開始時間",
+    "dailyEndTime": "毎日の終了時間",
+    "fullTimeNote": "生徒はプログラム期間中、毎日フルタイムで訓練します。",
+    "note": "注意",
+    "durationNote": "期間は開始日と終了日から自動的に計算されます。",
+    "imageUpload": "プログラム画像",
+    "programImage": "プログラム画像",
+    "saveProgram": "プログラムを保存",
+    "createProgram": "プログラムを作成",
+    "updateProgram": "プログラムを更新",
+    "viewSchedule": "スケジュールを見る",
+    "hideSchedule": "スケジュールを隠す",
+    "noProgramsYet": "まだプログラムが追加されていません。",
+    "createFirstProgram": "最初のプログラムを作成",
+    "students": "生徒",
+    "confirm": "確認",
+    "platformFeeNote": "支払済予約手数料",
+    "youReceive": "あなたの受取額（コース価格）",
+    "bookingFeeAddedNote": "9％予約手数料追加",
+    "subtotal": "小計",
+    "salesTaxNote": "10％消費税",
+    "studentPays": "学生の支払総額"
+  },
+  "programDetail": {
+    "backToPrograms": "プログラムに戻る",
+    "bookNow": "今すぐ予約",
+    "programDetails": "プログラムの詳細",
+    "duration": "期間",
+    "price": "価格",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "dailyTraining": "毎日の訓練",
+    "trainingSchedule": "訓練スケジュール",
+    "programDuration": "プログラム期間",
+    "dailyHours": "毎日の訓練時間",
+    "fullTimeIntensive": "フルタイム集中訓練",
+    "fullTimeNote": "このプログラムは指定された日程中、毎日実施されます。生徒は毎日フルタイムで訓練します。",
+    "contactSchool": "予約後、特定の出席日を要求するには、学校にメールでお問い合わせください。",
+    "aboutSchool": "学校について",
+    "learnMoreAboutSchool": "この学校についてもっと知る",
+    "location": "場所",
+    "contact": "連絡先",
+    "website": "ウェブサイト"
+  },
+  "booking": {
+    "title": "予約",
+    "subtitle": "生徒の予約と予約を管理",
+    "completeBooking": "予約を完了",
+    "studentName": "お名前",
+    "studentEmail": "メールアドレス",
+    "studentPhone": "電話番号",
+    "message": "メッセージ（オプション）",
+    "messagePlaceholder": "特別な要望や質問はありますか？",
+    "submit": "予約を送信",
+    "cancel": "キャンセル",
+    "noBookings": "まだ予約がありません",
+    "status": "ステータス",
+    "date": "日付"
+  },
+  "bookings": {
+    "title": "予約",
+    "subtitle": "生徒の予約と予約を管理",
+    "student": "生徒",
+    "program": "プログラム",
+    "booked": "予約済み",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "message": "メッセージ",
+    "noBookingsYet": "まだ予約がありません"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "confirm": "確認",
+    "close": "閉じる",
+    "submit": "送信",
+    "approved": "承認済み",
+    "pending": "承認待ち",
+    "address": "住所",
+    "city": "市区町村",
+    "required": "※"
+  }
+}

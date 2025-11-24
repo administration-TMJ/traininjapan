@@ -1,0 +1,342 @@
+{
+  "nav": {
+    "home": "Home",
+    "programs": "Programs",
+    "forSchools": "For Schools",
+    "signIn": "Sign In",
+    "logout": "Logout",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "title": "A Pathway to Martial Excellence",
+    "subtitle": "Embark on a Journey of Cultural Enrichment. Experience authentic Japanese martial arts and cultural training with master instructors.",
+    "explorePrograms": "Explore Programs",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us"
+  },
+  "martialArts": {
+    "asayama": {
+      "title": "Asayama Ichiden Ryu",
+      "description": "A venerable koryū of comprehensive Japanese martial arts founded around 1566, emphasizing practical armed and unarmed combat."
+    },
+    "kyudo": {
+      "title": "ANKF Kyudo",
+      "description": "The Way of the Bow - traditional Japanese archery focused on personal cultivation and ceremonial practice."
+    },
+    "karate": {
+      "title": "Shotokan Karate",
+      "description": "One of the most widely practiced styles of Karate-Do globally, developed by Master Gichin Funakoshi."
+    },
+    "aikido": {
+      "title": "Aikikai Aikido",
+      "description": "The original foundation organization of Aikido, descended from Morihei Ueshiba, focused on harmony and self-defense."
+    },
+    "iaido": {
+      "title": "Mugai Ryū Iaihyōdō",
+      "description": "A highly regarded style of Iaido with strong emphasis on practical combative application and deep connection to Zen Buddhism."
+    },
+    "aikijujutsu": {
+      "title": "Daito Ryu Aikijujutsu",
+      "description": "A classical Japanese martial art recognized as a significant influence on modern Aikido and other martial arts."
+    }
+  },
+  "culturalArts": {
+    "calligraphy": "Shodō (Calligraphy)",
+    "ikebana": "Ikebana (Flower Arranging)",
+    "sumie": "Sumi-e (Ink Painting)",
+    "swordSmithing": "Katanakaji (Sword Smithing)"
+  },
+  "sections": {
+    "discoverTheArt": "Discover the Art",
+    "discoverIntro": "Welcome to Train In Japan, your gateway to authentic Japanese culture. We offer more than just tourist attractions; our courses signify a commitment to a life intertwined with Japan.",
+    "authenticTraining": "Authentic Training",
+    "authenticTrainingDesc": "Train with master instructors in traditional dojos",
+    "culturalImmersion": "Cultural Immersion",
+    "culturalImmersionDesc": "Experience Japanese traditions and way of life",
+    "allLevelsWelcome": "All Levels Welcome",
+    "allLevelsWelcomeDesc": "From individuals to families and whole classes",
+    "availableForBookings": "Available for Bookings",
+    "availableForBookingsDesc": "From traditional Koryu schools to modern Gendai martial arts - discover authentic Japanese training",
+    "culturalArtsTitle": "Cultural Arts",
+    "martialArts": "Martial Arts",
+    "martialArtsSubtitle": "Discover Ancient Fighting Traditions",
+    "culturalArts": "Cultural Arts",
+    "culturalArtsSubtitle": "Experience Traditional Japanese Culture",
+    "allLevels": "All Levels",
+    "beginners": "Beginners Welcome",
+    "experienced": "Experienced Practitioners",
+    "authentic": "Authentic Training",
+    "certifiedInstructors": "Certified Instructors"
+  },
+  "features": {
+    "allLevels": {
+      "title": "All Levels",
+      "description": "Programs designed for beginners through advanced practitioners"
+    },
+    "beginners": {
+      "title": "Beginners Welcome",
+      "description": "No experience needed - start your martial arts journey today"
+    },
+    "experienced": {
+      "title": "Experienced Practitioners",
+      "description": "Advanced training with master instructors in authentic settings"
+    },
+    "authentic": {
+      "title": "Authentic Training",
+      "description": "Learn directly from Japanese masters in traditional dojos"
+    },
+    "certifiedInstructors": {
+      "title": "Certified Instructors",
+      "description": "All instructors are certified and experienced professionals"
+    },
+    "culturalImmersion": {
+      "title": "Cultural Immersion",
+      "description": "Experience Japanese culture while training in martial arts"
+    }
+  },
+  "cta": {
+    "title": "Ready to Begin Your Journey?",
+    "subtitle": "Browse our available programs and book your authentic Japanese training experience today.",
+    "button": "Browse All Programs",
+    "contactUs": "Contact Us"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Submit",
+    "emailLabel": "Email: administration@traininjapan.com"
+  },
+  "footer": {
+    "title": "Train In Japan",
+    "subtitle": "Unlock authentic martial arts & cultural immersion",
+    "copyright": "© 2025 Train In Japan. All rights reserved."
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "trainingSchool": "Training School",
+    "defaultTagline": "Training School",
+    "stats": {
+      "title": "Dashboard Stats",
+      "locations": "Locations",
+      "instructors": "Instructors",
+      "programs": "Programs",
+      "bookings": "Bookings",
+      "earnings": "Your Earnings (Course Prices)",
+      "platformFee": "Booking Fees Collected (9%)"
+    },
+    "tabs": {
+      "branding": "Branding",
+      "locations": "Locations",
+      "instructors": "Instructors",
+      "programs": "Programs",
+      "bookings": "Bookings"
+    }
+  },
+  "branding": {
+    "title": "School Branding",
+    "subtitle": "Customize your school's visual identity with logos, banners, certificates, and videos.",
+    "tagline": {
+      "title": "School Tagline",
+      "description": "A short subtitle that appears below your school name",
+      "placeholder": "Training School"
+    },
+    "bio": {
+      "title": "School Bio / About",
+      "description": "Extended information about your school that appears on your profile and in course listings.",
+      "placeholder": "Tell students about your school's history, philosophy, training methods, instructors, and what makes your programs special..."
+    },
+    "logo": {
+      "title": "School Logo",
+      "description": "Upload your school's logo. Recommended size: 400x400px"
+    },
+    "banner": {
+      "title": "School Banner",
+      "description": "Upload a banner image for your school profile. Recommended size: 1920x400px"
+    },
+    "certificates": {
+      "title": "School Certificates",
+      "description": "Upload images of your school's certificates, accreditations, or awards."
+    },
+    "video": {
+      "title": "Promotional Video",
+      "description": "Upload a video file or paste a YouTube URL",
+      "urlLabel": "Or paste YouTube URL",
+      "preview": "Video Preview",
+      "remove": "Remove Video"
+    },
+    "saveBranding": "Save Branding"
+  },
+  "location": {
+    "title": "Training Locations",
+    "subtitle": "Manage your dojos and training facilities",
+    "addLocation": "Add Location",
+    "addLocationDesc": "Add a new dojo or training space in Japan",
+    "japaneseOnly": "Currently accepting Japanese locations only",
+    "name": "Location Name",
+    "namePlaceholder": "Main Dojo - Shibuya",
+    "mapInstruction": "Click on the map to select your location",
+    "mapHelp": "The marker will show your selected location. Address will be automatically detected.",
+    "selectedLocation": "Selected Location",
+    "detectedAddress": "Detected Address",
+    "coordinates": "Coordinates",
+    "prefecture": "Prefecture",
+    "capacity": "Capacity",
+    "capacityPlaceholder": "Maximum students",
+    "facilities": "Facilities",
+    "facilitiesPlaceholder": "Tatami mats, Changing rooms, Showers",
+    "description": "Description",
+    "facilityImages": "Facility Images",
+    "facilityImagesHelp": "Upload photos of your training space, changing rooms, equipment, etc.",
+    "createLocation": "Create Location",
+    "viewOnMaps": "View on Google Maps",
+    "facilityPhotos": "Facility Photos",
+    "students": "students"
+  },
+  "instructor": {
+    "title": "Instructors",
+    "subtitle": "Manage your teaching staff",
+    "addInstructor": "Add Instructor",
+    "createNew": "Create New Instructor",
+    "name": "Full Name",
+    "namePlaceholder": "Sensei Name",
+    "email": "Email",
+    "phone": "Phone",
+    "rank": "Rank / Title",
+    "rankPlaceholder": "5th Dan, Shihan, etc.",
+    "yearsExperience": "Years of Experience",
+    "bio": "Biography",
+    "bioPlaceholder": "Background, expertise, teaching philosophy...",
+    "specialties": "Specialties",
+    "specialtiesPlaceholder": "Weapons training, Kids classes, etc.",
+    "saveInstructor": "Save Instructor",
+    "years": "years"
+  },
+  "program": {
+    "title": "Programs",
+    "subtitle": "Manage your training programs and courses",
+    "addProgram": "Add Program",
+    "createNew": "Create New Program",
+    "editProgram": "Edit Program",
+    "firstCourseTitle": "First Course Approval",
+    "firstCourseWarning": "Your first course requires admin approval before going live.",
+    "category": "Course Category",
+    "courseCategory": "Course Category",
+    "martialArts": "Martial Arts",
+    "culturalArts": "Cultural Arts",
+    "style": "Martial Arts Style",
+    "martialArtsStyle": "Martial Arts Style",
+    "culturalType": "Cultural Art Type",
+    "culturalArtType": "Cultural Art Type",
+    "title": "Program Title",
+    "description": "Description",
+    "location": "Location",
+    "selectLocation": "Select a location",
+    "instructor": "Instructor",
+    "selectInstructor": "Select an instructor",
+    "experienceLevel": "Experience Level",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "level": "Level",
+    "classType": "Class Type",
+    "groupAdults": "Group (Adults)",
+    "private": "Private",
+    "family": "Family (Adults with Children)",
+    "familyAdultsChildren": "Family (Adults with Children)",
+    "price": "Price",
+    "capacity": "Capacity",
+    "locationMax": "Location max",
+    "schedule": "Program Schedule (Intensive Full-Time Training)",
+    "scheduleTitle": "Program Schedule (Intensive Full-Time Training)",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "dailyStartTime": "Daily Start Time",
+    "dailyEndTime": "Daily End Time",
+    "fullTimeNote": "Students train full-time each day during the program dates.",
+    "note": "Note",
+    "durationNote": "Duration will be automatically calculated from your start and end dates.",
+    "imageUpload": "Program Image",
+    "programImage": "Program Image",
+    "saveProgram": "Save Program",
+    "createProgram": "Create Program",
+    "updateProgram": "Update Program",
+    "viewSchedule": "View Schedule",
+    "hideSchedule": "Hide Schedule",
+    "noProgramsYet": "No programs added yet.",
+    "createFirstProgram": "Create Your First Program",
+    "students": "students",
+    "confirm": "Confirm",
+    "platformFeeNote": "Booking Fee Paid",
+    "youReceive": "You receive (your course price)",
+    "bookingFeeAddedNote": "9% booking fee added",
+    "subtotal": "Subtotal",
+    "salesTaxNote": "10% sales tax",
+    "studentPays": "Student total"
+  },
+  "programDetail": {
+    "backToPrograms": "Back to Programs",
+    "bookNow": "Book Now",
+    "programDetails": "Program Details",
+    "duration": "Duration",
+    "price": "Price",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "dailyTraining": "Daily Training",
+    "trainingSchedule": "Training Schedule",
+    "programDuration": "Program Duration",
+    "dailyHours": "Daily Training Hours",
+    "fullTimeIntensive": "Full-Time Intensive Training",
+    "fullTimeNote": "This program runs every day during the specified dates. Students train full-time each day.",
+    "contactSchool": "Contact the school via email to request specific attendance dates after booking.",
+    "aboutSchool": "About the School",
+    "learnMoreAboutSchool": "Learn More About This School",
+    "location": "Location",
+    "contact": "Contact",
+    "website": "Website"
+  },
+  "booking": {
+    "title": "Bookings",
+    "subtitle": "Manage student bookings and reservations",
+    "completeBooking": "Complete Your Booking",
+    "studentName": "Your Name",
+    "studentEmail": "Your Email",
+    "studentPhone": "Your Phone",
+    "message": "Message (Optional)",
+    "messagePlaceholder": "Any special requirements or questions?",
+    "submit": "Submit Booking",
+    "cancel": "Cancel",
+    "noBookings": "No bookings yet",
+    "status": "Status",
+    "date": "Date"
+  },
+  "bookings": {
+    "title": "Bookings",
+    "subtitle": "Manage student bookings and reservations",
+    "student": "Student",
+    "program": "Program",
+    "booked": "Booked",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "noBookingsYet": "No bookings yet"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "submit": "Submit",
+    "approved": "Approved",
+    "pending": "Pending Approval",
+    "address": "Address",
+    "city": "City",
+    "required": "*"
+  }
+}
