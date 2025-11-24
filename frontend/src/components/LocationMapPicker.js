@@ -86,6 +86,10 @@ const LocationMapPicker = ({ onLocationSelect, initialPosition, addressToGeocode
         const formattedAddress = result.results[0].formatted_address;
         setAddress(formattedAddress);
         
+        // Store the formatted address to prevent re-geocoding
+        lastFormattedAddressRef.current = formattedAddress;
+        lastGeocodedInputRef.current = formattedAddress;
+        
         // Extract prefecture and city from address components
         let prefecture = '';
         let city = '';
