@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { APIProvider, Map, AdvancedMarker, Pin } from '@vis.gl/react-google-maps';
 
 const LocationMapPicker = ({ onLocationSelect, initialPosition, addressToGeocode }) => {
@@ -8,14 +8,23 @@ const LocationMapPicker = ({ onLocationSelect, initialPosition, addressToGeocode
   const [address, setAddress] = useState('');
   const [loading, setLoading] = useState(false);
   const [isGeocodingAddress, setIsGeocodingAddress] = useState(false);
-  const [lastGeocodedAddress, setLastGeocodedAddress] = useState('');
+  
+  // Use refs to track the last formatted address and the source of address input
+  const lastFormattedAddressRef = useRef('');
+  const lastGeocodedInputRef = useRef('');
+
+  // Helper function to normalize addresses for comparison
+  const normalizeAddress = (addr) => {
+    if (!addr) return '';
+    return addr.toLowerCase().trim().replace(/\s+/g, ' ');
+  };
 
   // Forward geocode to get coordinates from address
   const forwardGeocode = useCallback(async (addressString) => {
     if (!addressString || addressString.trim() === '') return;
     
     setIsGeocodingAddress(true);
-    setLastGeocodedAddress(addressString);
+    lastGeocodedInputRef.current = addressString;
     
     try {
       const geocoder = new window.google.maps.Geocoder();
@@ -30,7 +39,10 @@ const LocationMapPicker = ({ onLocationSelect, initialPosition, addressToGeocode
         setMarkerPosition({ lat, lng });
         setAddress(formattedAddress);
         
-        // Extract prefecture from address components
+        // Store the formatted address so we don't re-geocode it
+        lastFormattedAddressRef.current = formattedAddress;
+        
+        // Extract prefecture and city from address components
         let prefecture = '';
         let city = '';
         const addressComponents = result.results[0].address_components;
