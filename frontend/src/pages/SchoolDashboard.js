@@ -381,8 +381,8 @@ const SchoolDashboard = () => {
                   <p className="text-sm text-slate-500 uppercase tracking-wide mb-2">{school?.tagline || 'Training School'}</p>
                   <p className="text-slate-600 mb-2">📍 {school?.location}</p>
                   <div className="flex items-center gap-3">
-                    <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full ${ school?.approved ? 'bg-emerald-100 text-emerald-700' : 'bg-yellow-100 text-yellow-700' }`}>
-                      {school?.approved ? '✓ Approved' : '⏳ Pending Approval'}
+                    <span className="inline-block text-xs font-semibold px-3 py-1 rounded-full bg-emerald-100 text-emerald-700">
+                      ✓ Approved
                     </span>
                     {school?.website && (
                       <a href={school.website} target="_blank" rel="noopener noreferrer" className="text-xs text-emerald-700 hover:text-emerald-800 underline">
