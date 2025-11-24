@@ -79,3 +79,4 @@ agenthub/agents/youtube/db
 # Mobile development
 android-sdk/ traininjapan-repo/.git/objects/pack/pack-41a97b48c24274dceaad7eb01045bcd2110c693f.pack
 traininjapan-repo/.git/objects/pack/pack-41a97b48c24274dceaad7eb01045bcd2110c693f.pack
+frontend/node_modules/.cache/default-development/0.pack

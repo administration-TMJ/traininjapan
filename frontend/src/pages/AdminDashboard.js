@@ -891,6 +891,30 @@ const AdminDashboard = () => {
                             required 
                           />
                         </div>
+                        <div>
+                          <Label>Pin Location on Map</Label>
+                          <APIProvider apiKey={GOOGLE_MAPS_API_KEY}>
+                            <LocationMapPicker
+                              onLocationSelect={(locationData) => {
+                                console.log('Location selected:', locationData);
+                                setLocationForm({
+                                  ...locationForm,
+                                  latitude: locationData.lat,
+                                  longitude: locationData.lng,
+                                  address: locationData.address,
+                                  prefecture: locationData.prefecture,
+                                  city: locationData.city
+                                });
+                              }}
+                              initialPosition={
+                                locationForm.latitude && locationForm.longitude
+                                  ? { lat: locationForm.latitude, lng: locationForm.longitude }
+                                  : null
+                              }
+                              addressToGeocode={locationForm.address}
+                            />
+                          </APIProvider>
+                        </div>
                         <div className="grid grid-cols-2 gap-4">
                           <div>
                             <Label>City *</Label>
@@ -933,30 +957,6 @@ const AdminDashboard = () => {
                             onChange={(e) => setLocationForm({...locationForm, description: e.target.value})}
                             rows={3}
                           />
-                        </div>
-                        <div>
-                          <Label>Pin Location on Map</Label>
-                          <APIProvider apiKey={GOOGLE_MAPS_API_KEY}>
-                            <LocationMapPicker
-                              onLocationSelect={(locationData) => {
-                                console.log('Location selected:', locationData);
-                                setLocationForm({
-                                  ...locationForm,
-                                  latitude: locationData.lat,
-                                  longitude: locationData.lng,
-                                  address: locationData.address,
-                                  prefecture: locationData.prefecture,
-                                  city: locationData.city
-                                });
-                              }}
-                              initialPosition={
-                                locationForm.latitude && locationForm.longitude
-                                  ? { lat: locationForm.latitude, lng: locationForm.longitude }
-                                  : null
-                              }
-                              addressToGeocode={locationForm.address}
-                            />
-                          </APIProvider>
                         </div>
                         <Button type="submit" className="w-full bg-emerald-700 hover:bg-emerald-800">
                           Create Location
